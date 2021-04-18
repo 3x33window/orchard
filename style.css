@@ -1,0 +1,105 @@
+body {
+	background-color: black;
+	margin: 0;
+	height: 2000px;
+}
+
+.tree1 {
+	float: left;
+	position: relative;
+	text-decoration: none;
+	margin: 10px;
+}
+
+.tree1 .tree1-text h1 {
+	color: red;
+	font-family: "Bodoni Moda";
+	font-style: italic;
+	font-weight: 900;
+	position: absolute;
+	bottom: 5px;
+	display: inline-block;
+	width: 250px;
+	line-height: 140px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.main-contents {
+	display: inline-block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-bottom: 200px;
+}
+
+.tree-left {
+	display: block;
+	transform: scaleX(-1);
+	position: absolute;
+	left: 200px;
+}
+
+.tree-right {
+	display: block;
+	position: absolute;
+	right: 200px;
+}
+
+.main-bottom-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+	width: 250px;
+}
+
+.main-contents p {
+	font-family: "Bodoni Moda";
+	font-style: italic;
+	font-size: 14px;
+	font-weight: 100;
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-top: 50px;
+	color: white;
+}
+
+.korean {
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 12px;
+	font-weight: 900;
+	position: relative;
+	top: 200px;
+}
+
+.enter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 500px;
+}
+
+.enter-font {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 400px;
+}
+
+.enter-font:hover {
+	background-image: url(../images/enter-font-back.png);
+}
+
