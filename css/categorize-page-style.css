@@ -1,0 +1,115 @@
+body {
+	background-color: black;
+	background-image: url(../images/categorize-page-background.gif);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: auto;
+	height: 800px;
+	margin: 0;
+}
+
+.categorize-box {
+	position: absolute;
+	top: 20px;
+	padding-left: 70%;
+	width: 500px;
+	height: 80px;
+}
+
+.categorize-box .finger {
+	position: relative;
+	top: 70px;
+	right: 30px;
+}
+
+.categorize-box a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	width: 438px;
+	height: 68px;
+	background-image: url(../images/map-of-orchard-font.png);
+	background-repeat: no-repeat;
+}
+
+.categorize-box a:hover {
+	color: white;
+	text-decoration: none;
+	display: block;
+	width: 438px;
+	height: 68px;
+	background-image: url(../images/map-of-orchard-font-x.png);
+	background-repeat: no-repeat;
+}
+
+.tag .zone0 {
+	display: block;
+	width: 150px;
+	height: 80px;
+	background-image: url(../images/tree-of-life-font.png);
+	position: relative;
+	top: 250px;
+	left: 350px;
+	text-align: center;
+	color: transparent;
+}
+
+.tag .zone0:hover {
+	display: block;
+	width: 150px;
+	height: 80px;
+	background-image: url(../images/tree-of-life-font-x.png);
+	position: relative;
+	top: 250px;
+	left: 350px;
+	text-align: center;
+	color: transparent;
+}
+
+.tag .zone1 {
+	display: block;
+	width: 150px;
+	height: 80px;
+	background-image: url(../images/tree-of-life-font2.png);
+	position: relative;
+	top: 330px;
+	left: 1080px;
+	text-align: center;
+	color: transparent;
+}
+
+.tag .zone1:hover {
+	display: block;
+	width: 150px;
+	height: 80px;
+	background-image: url(../images/tree-of-life-font2-x.png);
+	position: relative;
+	top: 330px;
+	left: 1080px;
+	text-align: center;
+	color: transparent;
+}
+
+.tag .zone010 {
+	display: block;
+	width: 150px;
+	height: 80px;
+	background-image: url(../images/tree-of-life-font3.png);
+	position: relative;
+	top: 480px;
+	left: 180px;
+	text-align: center;
+	color: transparent;
+}
+
+.tag .zone010:hover {
+	display: block;
+	width: 150px;
+	height: 80px;
+	background-image: url(../images/tree-of-life-font3-x.png);
+	position: relative;
+	top: 480px;
+	left: 180px;
+	text-align: center;
+	color: transparent;
+}

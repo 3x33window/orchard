@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>orchard</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" href="../css/zone1Castle.css">
+		<meta http-equiv="refresh" content="35; url=zone1Castle2.html">
+		<script>
+			var time = 30;
+			var min = "0";
+			var sec = "30";
+
+			var x = null;
+
+			var x = setInterval(function() {
+				min = parseInt(time/60);
+				sec = time%60;
+
+				document.getElementById("timer").innerHTML = min + " : " + sec;
+
+				time--;
+
+				if (time < 0) {
+					clearInterval(x);
+					document.getElementById("timer").innerHTML = "보안프로그램작동";
+				}
+			}, 1000);
+		</script>
+	</head>
+
+	<body>
+		<div class="timerBack">
+		  <div id="timer"></div>
+		</div>
+
+		<button class="redButton" type="button" onclick="alert('nothing happens sorry!\n영업안함 죄송합니다!')" style="position: absolute; top: 80%; left:40%;">Stop</button>
+		<button class="redButton" type="button" onclick="alert('nothing happens sorry!\n영업안함 죄송합니다!')" style="position: absolute; top: 70%; left:70%;">Stop</button>
+		<button class="redButton" type="button" onclick="alert('How are you?\n잘지내?')" style="position: absolute; top: 75%; left:70%;">Stop</button>
+		<button class="redButton" type="button" onclick="alert('I personally like the color match of this page.\n개인적으로 이 페이지 색 좋아해요.')" style="position: absolute; top: 80%; left:70%;">Stop</button>
+		<button class="redButton" type="button" onclick="alert('nothing happens sorry!\n영업안함 죄송합니다!')" style="position: absolute; top: 95%; left:90%;">Stop</button>
+		<button class="redButton" type="button" onclick="alert('Finding timer stop code was too much for me, sorry lol.\n타이머 멈춤 코딩 찾기가 쉽지않더라고요 죄송함니다.')" style="position: absolute; top: 95%; left:95%;">Stop</button>
+		<button class="redButton" type="button" onclick="alert('nothing happens sorry!\n영업안함 죄송합니다!')" style="position: absolute; top: 15%; left:10%;">Stop</button>
+		<button class="redButton" type="button" onclick="alert('nothing happens sorry!\n영업안함 죄송합니다!')" style="position: absolute; top: 2%; left:92%;">Stop</button>
+		<button class="redButton" type="button" onclick="alert('You look urgent :)\n바쁘신것같네요^^')" style="position: absolute; top: 65%; left:3%;">Stop</button>
+	</body>
+</html>

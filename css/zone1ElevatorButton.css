@@ -1,0 +1,40 @@
+body {
+	background-color: black;
+	background-image: url(../images/steelTexture.jpeg);
+}
+
+.button {
+	display: inline-block;
+	width: 100%;
+	text-align: left;
+	margin-left: 150px;
+}
+
+.button a {
+	text-decoration: none;
+}
+
+.text p {
+	display: inline-block;
+	font-family: serif;
+	position: absolute;
+	left:720px;
+	bottom:700px;
+	font-family: "Bodoni Moda", serif;
+	font-size: 15px;
+	font-style: italic;
+}
+
+.typing-txt {
+	display: none;
+	font-family: "Bodoni Moda", serif;
+	font-size: 15px;
+	font-style: italic;
+	position: absolute;
+	left:720px;
+	bottom: 260px;
+	background-color: #BEBEBE;
+	padding:5px;
+	box-shadow: 5px 5px 10px red;
+	margin-right: 150px;
+}

@@ -1,0 +1,56 @@
+body {
+	background-color: black;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 8000px;
+	-ms-overflow-style: none; /*스크롤바 숨기기*/
+}
+
+/*스크롤바 숨기기*/
+::-webkit-scrollbar {
+	display: none;
+}
+
+.start {
+	display: block;
+}
+
+.start p {
+	font-family: "Bodoni Moda";
+	color: white;
+	font-weight: 100;
+	font-style: italic;
+	font-size: 16px;
+	text-align: left;
+}
+
+.doors {
+	display: block;
+	width: 650px;
+	margin-top: 600px;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+.doors a {
+	display: inline-block;
+	width: 65px;
+	height: 102px;
+	background-image: url(../images/door2Shut.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.doors a:hover {
+	display: inline-block;
+	width: 65px;
+	height: 102px;
+	background-image: url(../images/door2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.uphill {
+	
+}

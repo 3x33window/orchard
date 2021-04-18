@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>orchard</title>
+		<meta charset="utf-8">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<link rel="stylesheet" href="../css/zone1ElevatorButton.css">
+		<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+		<script>
+			function SirenFunction(idMyDiv){
+     			var objDiv = document.getElementById(idMyDiv);
+    			if(objDiv.style.display=="block"){ objDiv.style.display = "none"; }
+    				else{ objDiv.style.display = "block"; }
+			}
+
+			function popup(){
+	            var url = "zone1Interphone.html";
+	            var name = "Interphone";
+	            var option = "width = 500, height = 500, top = 100, left = 200, location = no"
+	            window.open(url, name, option);
+        	}
+		</script>
+
+	</head>
+
+
+	<body>
+		<p style="font-family:serif; text-align:center; font-size: 15px; font-style: italic; position: absolute; left:375px; top:315px;">Escaping hole<br>Elevator</p>
+
+		<div class="button">
+			<img src="../images/pressButton.png" style="border: 4mm ridge rgba(255, 0, 0, 1); margin-top:250px;">
+			<a href="zone1Interphone.html" style="display: block; background-color: transparent; width: 100px; height: 50px; position: relative; left:213px; bottom:230px;" onclick="SirenFunction('AppearDiv'); window.open(this.href,'_blank','width=194px, height=200px, left=250px, top=400px'); return false;" class="blind_view">&nbsp;</a>
+			<a href=".." style="display: block; background-color: transparent; width: 100px; height: 57px; position: absolute; left:372px; top:550px;">&nbsp;</a>
+		</div>
+		<div class="text">
+			<p>The hole that can escape.<br>There are only two buttons.<br>빠져나갈 구멍의 엘리베이터.<br>엘리베이터에는 두개의 버튼 뿐이다.</p>
+		</div>
+		<p class="typing-txt" id="AppearDiv"><b>You opened the lid of upper button.<br>This button is an emergency button that is pressed when the elevator breaks down.<br>Is this elevator broken?<br>If it is, use the button and seek help.<br>For help, hold button for 3 sec.<br>당신은 윗 버튼의 뚜껑을 열었다<br>이 버튼은 엘리베이터가 고장났을 때 누르는 비상버튼이다.<br>당신이 생각하기에 이 엘리베이터가 고장났는가?<br>고장이라면 비상버튼을 통해 고장여부를 알리고 도움을 받도록 한다.<br>도움을 받기위해서는 빨간색 버튼을 3초간 누르고있는다.</b></p>
+	</body>
+</html>

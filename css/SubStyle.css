@@ -1,0 +1,85 @@
+body {
+	background-color: black;
+	background-image: url(../images/EnterBackground-export2.png);
+	background-position: center center;
+	background-size: auto;
+	background-repeat: no-repeat;
+	margin: 0;
+	height: 3700px;
+}
+
+.main-contents p {
+	font-family: "Bodoni Moda";
+	font-style: italic;
+	font-size: 14px;
+	font-weight: 100;
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-top: 200px;
+	color: white;
+}
+
+.English {
+	font-family: "Bodoni Moda";
+	font-style: italic;
+	font-size: 14px;
+	font-weight: 100;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 200px;
+	color: white;
+}
+
+.korean {
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 12px;
+	font-weight: 900;
+	position: relative;
+	top: 50px;
+}
+
+.korean2 {
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 12px;
+	font-weight: 900;
+	position: relative;
+	top: 150px;
+}
+
+.main-contents .enter2 {
+	color: transparent;
+	background-image: url(../images/eye.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 3455px;
+	left: 200px;
+}
+
+.main-contents .enter2:hover {
+	background-image: url(../images/eye1.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 3455px;
+	left: 200px;
+}
+
+.main-contents h1 {
+	color: white;
+	font-family: "Bodoni Moda";
+	font-style: italic;
+	font-size: 17px;
+	font-weight: 100;
+	margin-left: 233px;
+	position: absolute;
+	top: 3590px;
+}

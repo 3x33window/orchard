@@ -1,0 +1,267 @@
+body {
+	background-color:black;
+	background-image: url(../images/zone0background.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	height: 8000px;
+}
+
+.english p {
+	height: 600px;
+	color: white;
+	font-family: "Bodoni Moda";
+	font-style: italic;
+	font-weight: 100;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 250px;
+	background-image: url(../images/textBackgroundBox.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.korean p {
+	height: 600px;
+	color: white;
+	font-style: italic;
+	font-size: 12px;
+	font-weight: 100;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 280px;
+	margin-bottom: 2800px;
+	background-image: url(../images/textBackgroundBox.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.english2 p {
+	background-image: url(../images/smallTextBox.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 80px;
+	color: white;
+	font-family: "Bodoni Moda";
+	font-style: italic;
+	font-weight: 100;
+	font-size: 14px;
+	text-align: center;
+}
+
+.korean2 {
+	background-image: url(../images/smallTextBox.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 80px;
+	color: white;
+	font-style: italic;
+	font-size: 14px;
+	font-weight: 100;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.caption {
+	font-family: "Bodoni Moda";
+	color: white;
+	font-style: italic;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.korean3 {
+	color: white;
+	font-family: "Bodoni Moda" ;
+	font-style: italic;
+	font-size: 14px;
+	font-weight: 100;
+	display: block;
+	text-align: center;
+	height: 100px;
+}
+
+.bold {
+	color: white;
+	font-style: italic;
+	font-size: 14px;
+	font-weight: 900;
+}
+
+.carousel {
+	background-image: url(../images/slideBackCircle.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 600px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 500px;
+}
+
+.carousel-item.active {
+	display: block;
+	height: 600px;
+}
+
+.d-block.w-30.arrange {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.d-block.w-30.arrange2 {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+
+.d-block.w-30.arrange3 {
+	display: block;
+	margin-top: 250px;
+	position: relative;
+	right: 25px;
+}
+
+.carousel-inner .finger {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 160px;
+}
+
+.carousel-control-prev {
+	position: absolute;
+	left: 30px;
+}
+
+.carousel-control-next {
+	position: absolute;
+	right: 30px;
+}
+
+.imageCenter {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	background-color: black;
+}
+
+.carousel-item .link {
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.english3 {
+	background-image: url(../images/smallTextBox.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 80px;
+	color: white;
+	font-family: "Bodoni Moda";
+	font-style: italic;
+	font-weight: 100;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.sound {
+	color: black;
+	height: 20px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 32px;
+	right: 3px;
+}
+
+.choice {
+	display: block;
+	width: 260px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.rullet {
+	background-image: url(../images/rullet.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: inline-block;
+	height: 45px;
+	width: 110px;
+	color: white;
+	text-decoration: none;
+	margin-right: 10px;
+	margin-left: auto;
+	text-align: center;
+}
+
+.rullet:hover {
+	background-image: url(../images/rullet2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: inline-block;
+	height: 45px;
+	width: 110px;
+	color: white;
+	text-decoration: none;
+	margin-right: 10px;
+	margin-left: auto;
+	text-align: center;
+}
+
+.rullet2 {
+	background-image: url(../images/rullet2.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: inline-block;
+	height: 45px;
+	width: 110px;
+	color: white;
+	text-decoration: none;
+	margin-right: auto;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.rullet2:hover {
+	background-image: url(../images/rullet.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: inline-block;
+	height: 45px;
+	width: 110px;
+	color: white;
+	text-decoration: none;
+	margin-right: auto;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.english4 {
+	background-image: url(../images/smallTextBox.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 80px;
+	color: white;
+	font-family: "Bodoni Moda";
+	font-style: italic;
+	font-weight: 100;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 20px;
+}

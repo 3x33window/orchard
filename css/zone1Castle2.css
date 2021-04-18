@@ -1,0 +1,27 @@
+body {
+	background-color: red;
+}
+
+.middleBox {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	background: linear-gradient(to bottom, rgb(0, 0, 255), rgb(0, 255, 179), yellow);
+	width: 500px;
+	height: 7000px;
+}
+
+.middleBox p {
+	color: #94FFF3;
+	font-family: "Bodoni Moda";
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 300px;
+}
+
+#N {
+	position: absolute;
+	left: 600px;
+	top: 6800px;
+}
