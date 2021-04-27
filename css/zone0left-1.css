@@ -1,5 +1,14 @@
+* {
+	margin: 0;
+	font-family: "Bodoni Moda", serif;
+}
+
 body {
 	background-color: black;
+	background-image: url(../images/redsaptree2.gif);
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 2760px;
 }
 
 .center {
@@ -9,26 +18,30 @@ body {
 }
 
 .english {
+	margin: 0;
+	padding: 0;
 	color: white;
 	font-family: "Bodoni Moda";
 	font-weight: 100;
 	font-size: 15px;
-
+	text-align: center;
 }
 
 
 .english h1 {
-	font-size: 30px;
-	font-weight: 900;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 45px;
+	font-weight: 600;
 	text-align: center;
 	font-style: italic;
+	text-shadow: 2px 2px 2px red;
 }
 
 .english p {
 	width: 400px;
 	font-style: italic;
-	margin-left: auto;
-	margin-right: auto;
+	text-shadow: 2px 2px 2px red;
 }
 
 .fontImage {
@@ -57,6 +70,11 @@ body {
 
 .link a:hover {
 	text-decoration: none;
-	color: black;
+	color: red;
 	text-align: center;
+}
+
+.english p {
+	display: block;
+	width: 200px;
 }
